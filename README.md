@@ -54,3 +54,14 @@ _iOS操作_
 set porxy=12450
 ```
 "porxy="后为端口，修改即可。
+
+## 2020/11/30反馈
+yj在游戏客户端里会强制关闭链接，可能导致破解方法无效（希望作者大佬可以看到）
+```
+192.168.0.104:52878: CONNECT me.xdrig.com:443
+ << ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)
+192.168.0.104:52878: clientdisconnect
+192.168.0.104:52898: CONNECT as.hypergryph.com:443
+ << ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)
+192.168.0.104:52875: CONNECT ak-fs.hypergryph.com:443
+ << ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)
